@@ -2,10 +2,6 @@ import client.FileClient;
 import server.FileServer;
 import java.util.Scanner;
 
-/**
- * Main application launcher that allows user to start either the file server
- * or file client component.
- */
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("=== File Transfer Application ===");

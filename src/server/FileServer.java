@@ -5,10 +5,7 @@ import java.net.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * FileServer class is responsible for accepting client connections
- * and delegating the file transfer operations to separate handler threads.
- */
+
 public class FileServer {
     private static final int PORT = 8080;
     private static final String SERVER_FILES_DIR = "server_files";

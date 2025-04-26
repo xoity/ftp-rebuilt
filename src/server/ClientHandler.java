@@ -3,10 +3,7 @@ package server;
 import java.io.*;
 import java.net.*;
 
-/**
- * ClientHandler class manages individual client connections.
- * It handles file upload and download requests from clients.
- */
+
 public class ClientHandler implements Runnable {
     private Socket clientSocket;
     private String serverFilesDir;

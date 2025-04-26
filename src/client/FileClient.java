@@ -4,16 +4,14 @@ import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 
-/**
- * FileClient class provides a command-line interface for users to upload
- * and download files from the file server.
- */
+
 public class FileClient {
     private static final String SERVER_ADDRESS = "localhost";
     private static final int SERVER_PORT = 8080;
     private static final String CLIENT_FILES_DIR = "client_files";
 
     public static void main(String[] args) {
+
         // Create client files directory if it doesn't exist
         File clientFilesDir = new File(CLIENT_FILES_DIR);
         if (!clientFilesDir.exists()) {
